@@ -1,0 +1,22 @@
+{
+    "name": "joferreira/mc-catalog-video",
+    "description": "App With PHP - Catalog Video",
+    "authors": [
+        {
+            "name": "Josemar Ferreira",
+            "email": "jf.sorin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "mockery/mockery": "^1.6"
+    },
+    "require": {
+        "ramsey/uuid": "^4.2"
+    }
+}
